@@ -1,23 +1,32 @@
-<sites>
-	<site id="{3881cace-2c24-4729-b2d5-2f74d16a3ade}">
-		<name>Sample Website</name
-		
-		<pages>
-			<page type="landing">
-				<title>Sample Website Home Page</title>
-				<content>
-			</page>
-			<page type="blog">
-				<articles>
-					<article>
-						<title>Soliloquy</title>
-						<created>2017-01-02 13:30:34</created>
-						<modified>2017-01-02 13:41:00</modified>
-						<author>Smith, John</author>
-						<content></content>
-					</article>
-				</articles>
-			</page>
-		</pages>
-	</site>
-</sites>
+<config>
+	<sites>
+		<site id="{3881cace-2c24-4729-b2d5-2f74d16a3ade}">
+			<name>Sample Website</name
+			
+			<pages>
+				<page type="landing">
+					<title>Sample Website Home Page</title>
+					<content>Sample Page Content</content>
+				</page>
+
+				<page type="blog">
+					<articles>
+						<article>
+							<title>Soliloquy</title>
+							<created>2017-01-02 13:30:34</created>
+							<modified>2017-01-02 13:41:00</modified>
+							<author>Smith, John</author>
+							<content></content>
+						</article>
+					</articles>
+				</page>
+			</pages>
+		</site>
+	</sites>
+
+	<templates>
+		<template id="{752226e2-2103-4473-b016-6412abda2cb7}">
+			<name>Skyfall</name>
+		</template>
+	</templates>
+</config>
